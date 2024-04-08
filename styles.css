@@ -1,0 +1,89 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Login Page Styles */
+
+#loginform {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#loginform h1 {
+    text-align: center;
+}
+
+/* Registration Page Styles */
+
+#registrationForm {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#registrationForm h1 {
+    text-align: center;
+}
+
+/* Dashboard Page Styles */
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.dashboard-container h1 {
+    text-align: center;
+}
+
+.dashboard-container button {
+    display: block;
+    margin: 0 auto;
+}
