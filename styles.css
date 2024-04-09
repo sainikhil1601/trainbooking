@@ -87,3 +87,32 @@ button:hover {
     display: block;
     margin: 0 auto;
 }
+
+/* styles.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, nav, main {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.page {
+    display: none;
+}
+
+.active {
+    font-weight: bold;
+}
